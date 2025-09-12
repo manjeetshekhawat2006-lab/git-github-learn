@@ -1,0 +1,101 @@
+[33mcommit 42974982d6191b74a30bf06f41380dd94cf2b723[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Arjun Singh Shekhawat <shekhawatsingharjun12345@gmail.com>
+Date:   Fri Sep 12 21:54:49 2025 +0530
+
+    add to more course
+
+[1mdiff --git a/app.py b/app.py[m
+[1mindex 5bd5b4a..6c2b1a8 100644[m
+[1m--- a/app.py[m
+[1m+++ b/app.py[m
+[36m@@ -8,4 +8,6 @@[m [mwith col2:[m
+ st.header("offered course")[m
+ st.subheader("Data science")[m
+ st.subheader("Data analysis")[m
+[31m-st.subheader("Machine Learning")[m
+\ No newline at end of file[m
+[32m+[m[32mst.subheader("Machine Learning")[m
+[32m+[m[32mst.subheader("python")[m
+[32m+[m[32mst.subheader("web")[m
+\ No newline at end of file[m
+
+[33mcommit 7f786b494a02bd3e670a715666d5f422277be14c[m
+Author: Arjun Singh Shekhawat <shekhawatsingharjun12345@gmail.com>
+Date:   Fri Sep 12 21:31:13 2025 +0530
+
+    add course to home page
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..723ef36[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m.idea[m
+\ No newline at end of file[m
+[1mdiff --git a/app.py b/app.py[m
+[1mindex dee1f5e..5bd5b4a 100644[m
+[1m--- a/app.py[m
+[1m+++ b/app.py[m
+[36m@@ -4,4 +4,8 @@[m [mcol1, col2 = st.columns(2)[m
+ with col1:[m
+     st.write("Hello world!")[m
+ with col2:[m
+[31m-    st.write("Hello world!")[m
+\ No newline at end of file[m
+[32m+[m[32m    st.write("Hello world!")[m
+[32m+[m[32mst.header("offered course")[m
+[32m+[m[32mst.subheader("Data science")[m
+[32m+[m[32mst.subheader("Data analysis")[m
+[32m+[m[32mst.subheader("Machine Learning")[m
+\ No newline at end of file[m
+[1mdiff --git a/temp.py b/temp.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2227252[m
+[1m--- /dev/null[m
+[1m+++ b/temp.py[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m# this file is not use full[m
+
+[33mcommit 0dc66fea9e1826f00cff78b3b4b35a6967a33b72[m
+Author: Arjun Singh Shekhawat <shekhawatsingharjun12345@gmail.com>
+Date:   Fri Sep 12 21:06:04 2025 +0530
+
+    initial commit
+
+[1mdiff --git a/app.py b/app.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dee1f5e[m
+[1m--- /dev/null[m
+[1m+++ b/app.py[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m[32mimport streamlit as st[m
+[32m+[m[32mst.title("CAMPUSX")[m
+[32m+[m[32mcol1, col2 = st.columns(2)[m
+[32m+[m[32mwith col1:[m
+[32m+[m[32m    st.write("Hello world!")[m
+[32m+[m[32mwith col2:[m
+[32m+[m[32m    st.write("Hello world!")[m
+\ No newline at end of file[m
+[1mdiff --git a/main.py b/main.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2b1173f[m
+[1m--- /dev/null[m
+[1m+++ b/main.py[m
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32m# This is a sample Python script.[m
+[32m+[m
+[32m+[m[32m# Press Ctrl+F5 to execute it or replace it with your code.[m
+[32m+[m[32m# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef print_hi(name):[m
+[32m+[m[32m    # Use a breakpoint in the code line below to debug your script.[m
+[32m+[m[32m    print(f'Hi, {name}')  # Press F9 to toggle the breakpoint.[m
+[32m+[m
+[32m+[m
+[32m+[m[32m# Press the green button in the gutter to run the script.[m
+[32m+[m[32mif __name__ == '__main__':[m
+[32m+[m[32m    print_hi('PyCharm')[m
+[32m+[m
+[32m+[m[32m# See PyCharm help at https://www.jetbrains.com/help/pycharm/[m
