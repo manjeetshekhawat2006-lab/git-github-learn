@@ -14,5 +14,9 @@ st.sidebar.title("Data analysis engineering")
 st.sidebar.markdown("""
  -name
  -age
- -email
-    """)
+ -meal
+""")
+st.header("Manjeet Singh")
+st.image("logo.png")
+
+
