@@ -16,3 +16,4 @@ st.sidebar.markdown("""
  -age
  -email
     """)
+st.image("marksheet_12.jpg")
