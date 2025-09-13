@@ -9,7 +9,7 @@ st.header("offered course")
 st.subheader("Data science")
 st.subheader("Data analysis")
 st.subheader("Machine Learning")
-st.subheader("Data analysis engineering")
+st.subheader("Data analysis engineering master ")
 st.sidebar.title("Data analysis engineering")
 st.sidebar.markdown("""
  -name
